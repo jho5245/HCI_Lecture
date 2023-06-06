@@ -1,0 +1,35 @@
+#header {
+    background-color: red;
+}
+
+#aside {
+    background-color: blue;
+}
+
+#content {
+    background-color: green;
+}
+
+.bar {
+    color: green;
+}
+
+input[type="text"] {
+    background-color: gray;
+}
+
+input[type="password"] {
+    background-color: cyan;
+}
+
+#header_2 {
+    background-color: blue;
+}
+
+#header_2 #header_inner, .foo {
+    background-color: red;
+}
+
+#header_2 .title {
+    background-color: lime;
+}
