@@ -1,0 +1,83 @@
+/* 다크 모드 기본값(라이트 모드) */
+:root {
+    /* 변수 기능 활용 */
+    --bg2: rgb(240, 240, 240);
+    --bg: white;
+}
+
+/* 기본 여백 제거 */
+body, p, main {
+    margin: 0;
+}
+
+/* 배경 색 설정 */
+body {
+    background-color: var(--bg);
+}
+
+/* 다크 모드 */
+body[theme='dark'] {
+    --bg2: rgb(40, 40, 40);
+    --bg: black;
+    color: white
+}
+
+header {
+    padding:15px;
+    /* 하단 경계선 색깔*/
+    border-bottom: solid 1px gray;
+}
+
+main {
+    /* css의 flex box 기능 사용 */
+    display: flex;
+    /* 정렬 방향을 위아래로 */
+    flex-direction: column;
+    /* 가로 중앙 정렬 */
+    align-items: center;
+    margin-top: 0px;
+}
+
+article {
+    background-color: var(--bg2);
+    padding: 30px;
+}
+
+#contents, #index {
+    width: 1080px;
+}
+
+footer {
+    padding:15px;
+    border-top: solid 1px gray;
+}
+
+#navigator {
+    /*위치 고정*/
+    position: fixed;
+    /*크기 지정*/
+    width: 50px;
+    height: 150px;
+    /*위치 지정*/
+    bottom: 0;
+    right: 0;
+}
+
+/*id가 navigator*/
+#navigator > a, #navigator > span {
+    display: flex;
+    /* 가로 세로 크기 지정 */
+    width: 50px;
+    height: 50px;
+    /* 가로 중앙 정렬 */
+    align-items: center;
+    /* 세로 중앙 정렬 */
+    justify-content: center;
+    /* 마우스를 올리면 클릭 버튼 모양이 되도록 지정 */
+    cursor: pointer;
+}
+
+#navigator svg {
+    /* svg 이미지의 색상을 덮어씌움 */
+    fill: rgb(140, 140, 140)
+}

@@ -3,165 +3,217 @@
 
 <head>
     <title>리우 카니발</title>
-    <style>
-    </style>
+    <!--css 파일 연결-->
+    <link rel="stylesheet" href="brazil.css">
 </head>
 
 <body>
-    <h1 id="top">리우 카니발(Rio Carnival)</h1>
-    <a href="main.html">처음 화면으로</a><br>
-    <a href="#buttom" style="color:gray">맨 밑으로</a>
-    <hr>
-    <fieldset style="background-color: rgb(240, 240, 240);width:300px;">
-        <legend id="contents"><b>목차</b></legend>
-        <ol>
-            <li>
-                <a href="#open" style="color:hsl(233, 100%, 73%)">개요</a>
-                <ul>
-                    <li><a href="#festival_info" style="color:hsl(233, 100%, 73%)">축제 정보</a></li>
-                    <li><a href="#festival_media" style="color:hsl(233, 100%, 73%)">대중 매체</a></li>
-                </ul>
-            </li>
-            <li><a href="#brazil_carnival" style="color:hsl(233, 100%, 73%)">브라질의 카니발</a></li>
-            <li>
-                <a href="#carnival_scale" style="color:hsl(233, 100%, 73%)">축제의 규모</a>
-                <ul>
-                    <li><a href="#carnival_scale_example" style="color:hsl(233, 100%, 73%)">사례</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#carnival_origin" style="color:hsl(233, 100%, 73%)">축제의 유래</a>
-                <ul>
-                    <li><a href="#carnival_origin_1" style="color:hsl(233, 100%, 73%)">카니발의 유래</a></li>
-                    <li><a href="#carnival_origin_2" style="color:hsl(233, 100%, 73%)">리우 카니발의 유래</a></li>
-                    <li><a href="#carnival_origin_3" style="color:hsl(233, 100%, 73%)">삼바와 삼바 스쿨</a></li>
-                </ul>
-            </li>
-            <li><a href="#carnival_parade" style="color:hsl(233, 100%, 73%)">삼바 퍼레이드</a></li>
-            <li><a href="#outter_link" style="color:hsl(233, 100%, 73%)">외부 링크</a></li>
-        </ol>
-
-    </fieldset>
-    <hr>
-    <h2><a href="#contents" id="open" style="color:hsl(233, 100%, 73%)">1. 개요</a></h2>
-    <b>리우 카니발</b>은 남아메리카를 대표하는 축제 중에 하나로서,
-    브라질의 리우데자네이루에서 열리는 삼바 축제다.<br>
-    축제 기간은 금욕기간인 사순절을 앞둔 매년 2월 말부터, 3월 초까지인 여름에 4~5일 동안 개최된다.<br>
-    <br>
-    <h3><a href="#contents" id="festival_info" style="color:hsl(233, 100%, 73%)">축제 정보</a></h3>
-    <table border="1" id="festival_info">
-        <tbody>
-            <tr>
-                <td>축제 이름</td>
-                <td>리우 카니발</td>
-            </tr>
-        </tbody>
-        <tbody>
-            <tr>
-                <td>축제 국가</td>
-                <td>브라질</td>
-            </tr>
-        </tbody>
-        <tbody>
-            <tr>
-                <td>축제 기간</td>
-                <td>사순절 직전. 2월 말 ~ 3월 초의 4~5일 간</td>
-            </tr>
-        </tbody>
-        <tbody>
-            <tr>
-                <td>축제 장소</td>
-                <td>리우데자네이루 삼바드로메 거리</td>
-            </tr>
-        </tbody>
-    </table>
-    <br>
-    <img src="brazil_flag.png" alt="[이미지] 브라질의 국기" width="300">
-    <img src="brazil_location.png" alt="[이미지] 브라질의 위치" width="300"><br>
-    브라질의 국기와 국가 위치
-    <br>
-    <br>
-    <form style="width:100px">
-        <fieldset>
-            <legend>
-                <h3><a href="#contents" id="festival_media" style="color:hsl(233, 100%, 73%)">대중 매체</a></h3>
-            </legend>
-            <form>
-                <fieldset>
-                    <legend>이미지</legend>
-                    <img src="overview.jpg" alt="[이미지] 리우 카니발에서 퍼레이드하는 삼바 학교 모시다데" width="400"><br>
-                    리우 카니발에서 퍼레이드하는 삼바 학교 모시다데
+    <header>
+        <h1 id="top" style="margin:0;">리우 카니발(Rio Carnival)</h1>
+    </header>
+    <main>
+        <!-- 문서 표준을 위한 태그 -->
+        <article>
+            <!-- 목차 섹션 -->
+            <section id="index">
+                <fieldset style="width:300px">
+                    <legend><b>목차</b></legend>
+                    <ol>
+                        <li>
+                            <a href="#open" style="color:hsl(233, 100%, 73%)">개요</a>
+                            <ul>
+                                <li><a href="#festival_info" style="color:hsl(233, 100%, 73%)">축제 정보</a></li>
+                                <li><a href="#festival_media" style="color:hsl(233, 100%, 73%)">대중 매체</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#brazil_carnival" style="color:hsl(233, 100%, 73%)">브라질의 카니발</a></li>
+                        <li>
+                            <a href="#carnival_scale" style="color:hsl(233, 100%, 73%)">축제의 규모</a>
+                            <ul>
+                                <li><a href="#carnival_scale_example" style="color:hsl(233, 100%, 73%)">사례</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#carnival_origin" style="color:hsl(233, 100%, 73%)">축제의 유래</a>
+                            <ul>
+                                <li><a href="#carnival_origin_1" style="color:hsl(233, 100%, 73%)">카니발의 유래</a></li>
+                                <li><a href="#carnival_origin_2" style="color:hsl(233, 100%, 73%)">리우 카니발의 유래</a></li>
+                                <li><a href="#carnival_origin_3" style="color:hsl(233, 100%, 73%)">삼바와 삼바 스쿨</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#carnival_parade" style="color:hsl(233, 100%, 73%)">삼바 퍼레이드</a></li>
+                        <li><a href="#outter_link" style="color:hsl(233, 100%, 73%)">외부 링크</a></li>
+                    </ol>
                 </fieldset>
-            </form>
-            <br>
-            <form>
-                <fieldset>
-                    <legend>동영상</legend>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uS7dBB61jNU"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe><br>
-                    2020 리우 카니발
-                </fieldset>
-            </form>
-        </fieldset>
-    </form>
-    <a href="#top" style="color:gray">맨 위로</a>
-    <hr>
-    <h2><a href="#contents" id="brazil_carnival" style="color:hsl(233, 100%, 73%)">2. 브라질의 카니발</a></h2>
-    카니발이라는 축제는 브라질 리우데자네이루, 상파울루, 사우바도르, 헤시피 중심으로 열리는데<br>
-    리우 카니발이 가장 성대하기 때문에 '리우 카니발'이 대표적인 카니발 축제라고 볼 수 있다.<br>
-    <a href="#top" style="color:gray">맨 위로</a>
-    <hr>
-    <h2><a href="#contents" id="carnival_scale" style="color:hsl(233, 100%, 73%)">3. 축제의 규모</a></h2>
-    매년 리우카니발 축제 기간에, 전 세계에서 6만여 명의 관광객이 찾아오고, 브라질의 국내 관광객도 약 25만 명에 이른다.<br>
-    6만여 명이라는 숫자는 브라질을 찾는 전체 관광객 중 1/3이며, 이렇게 리우 카니발 시기에 맞춰 관광객이 여행을 오는 것<br>
-    으로 보아 리우 카니발이 얼마나 큰 축제인 지 알 수 있다.<br>
-    <br>
-    <form>
-        <fieldset>
-            <legend>
-                <h3><a href="#contents" id="carnival_scale_example" style="color:hsl(233, 100%, 73%)">사례</a></h3>
-            </legend>
-            <img src="carnival_scale.jpg" alt="[이미지] 2013년 삼바드로메에서 퍼레이드하는 삼바 학교" width="300"><br>
-            2013년 삼바드로메에서 퍼레이드하는 삼바 학교
-        </fieldset>
-    </form>
-    <a href="#top" style="color:gray">맨 위로</a>
-    <hr>
+                <hr>
+            </section>
+            <!-- 내용 섹션 -->
+            <section id="contents">
+                <h2><a href="#index" id="open" style="color:hsl(233, 100%, 73%)">1. 개요</a></h2>
+                <p>
+                    <b>리우 카니발</b>은 남아메리카를 대표하는 축제 중에 하나로서,
+                    브라질의 리우데자네이루에서 열리는 삼바 축제다.
+                    축제 기간은 금욕기간인 사순절을 앞둔 매년 2월 말부터, 3월 초까지인 여름에 4~5일 동안 개최된다.
+                </p>
 
-    <h2><a href="#contents" id="carnival_origin" style="color:hsl(233, 100%, 73%)">4. 축제의 유래</a></h2>
-    <h3><a href="#contents" id="carnival_origin_1" style="color:hsl(233, 100%, 73%)">카니발의 유래</a></h3>
-    카니발은 유럽이나 남북아메리카, 가톨릭권의 도시에서 매년 경축되는 사순절 전의 마지막 요란스런 의식을 부리는<br>
-    것을 말한다. 카니발의 어원은 라틴어인 'Carnelevamen'(살코기를 끊는다)인데, 카니발은 곧 다가오는 사순절이라는<br>
-    금욕 기간에 앞서 영양을 보충하기 위해 마음껏 먹고 마시자는 취지에서 시작된 축제이다.
-    <h3><a href="#contents" id="carnival_origin_2" style="color:hsl(233, 100%, 73%)">리우 카니발의 유래</a></h3>
-    리우 카니발은 포르투갈에서 브라질로 건너온 사람들의 사순절 축제에 아프리카 노예들의 전통 타악기 연주와 춤이<br>
-    합쳐져서 생겨났다. 처음에는 사탕수수 경작을 위해 아프리카에서 끌려온 흑인 노예들이 힘든 노동을 끝내고, 고향에서<br>
-    즐겼던 노래와 춤을 추며 고통과 향수를 달랬던 것에서 시작했다. 이것이 점차 발전하여 20세기 초에 지금과 같은 형식의<br>
-    카니발이 완성되었다. 그러나 1930년대 초반까지는 일반적인 거리 축제에 지나지 않았다. 이후에 여러 삼바 학교가<br>
-    설립되고, 학교별 퍼레이드가 시작되며 지금과 같은 규모의 축제로 발전하였다.
-    <h3><a href="#contents" id="carnival_origin_3" style="color:hsl(233, 100%, 73%)">삼바와 삼바 스쿨</a></h3>
-    리우 카니발 축제는 삼바 축제라고도 사람들에게 많이 알려져 있다. 그만큼 카니발에서 삼바가 차지하는 비중은<br>
-    매우 크다. 삼바 스쿨은 카니발 축제를 준비하기 위해 설립된 학교다. 1928년 리우데자네이루의 흑인 빈민가<br>
-    에스타시오데사에 최초로 설립이 되었다. 그 이후로 많은 학교들이 생겨, 매년 리우 카니발 축제에서 퍼레이드를<br>
-    준비하여 서로 경쟁한다. 이렇게 리우 카니발의 핵심은 삼바 퍼레이드이기 때문에, 리우데자네이루 시청에서는<br>
-    주요 삼바학교에 보조금을 지급하기도 한다.<br>
-    <a href="#top" style="color:gray">맨 위로</a>
-    <hr>
-    <h2><a href="#contents" id="carnival_parade" style="color:hsl(233, 100%, 73%)">5. 삼바 퍼레이드</a></h2>
-    삼바 퍼레이드야말로 리우 카니발 축제의 진미다. 각 삼바 스쿨에서 주제를 정해 1년간 퍼레이드를 위한 삼바를<br>
-    연습한다. 삼바 퍼레이드는 삼바드로메(포르투갈어로는 삼보드로모)라는 거리에서 이루어지는데, 수용인원은<br>
-    약 6만명이다. 삼바 퍼레이드는 하루만 하는 것이 아닌 축제 기간 내내 일정 시간을 정해 여러 삼바스쿨이<br>
-    퍼레이드를 진행하게 된다. 그 중에서도 가장 뛰어난 삼바 단체들은 따로 모아서 공연을 하는데, 그 퍼레이드는<br>
-    다른 퍼레이드보다 훨씬 화려하다.<br>
-    <a href="#top" style="color:gray">맨 위로</a>
-    <hr>
-    <h2><a href="#contents" id="outter_link" style="color:hsl(233, 100%, 73%)">6. 외부 링크</a></h2>
-    리우 카니발 공식 홈페이지:
-    <a href="http://www.rio-carnival.net" style="color:green">http://www.rio-carnival.net</a> <br>
-    <a href="#top" style="color:gray">맨 위로</a>
-    <hr id="buttom">
+                <h3><a href="#index" id="festival_info" style="color:hsl(233, 100%, 73%)">축제 정보</a></h3>
+                <!--표를 사용하여 축제 정보 설명-->
+                <table border="1" id="festival_info">
+                    <tbody>
+                        <tr>
+                            <td>축제 이름</td>
+                            <td>리우 카니발</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>축제 국가</td>
+                            <td>브라질</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>축제 기간</td>
+                            <td>사순절 직전. 2월 말 ~ 3월 초의 4~5일 간</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>축제 장소</td>
+                            <td>리우데자네이루 삼바드로메 거리</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <!--표시 방식을 문단 내의 오브젝트 크기에 맞게-->
+                <form style="display:inline-block">
+                    <fieldset>
+                        <legend>
+                            브라질의 국기와 국가 위치
+                        </legend>
+                        <img src="brazil_flag.png" alt="[이미지] 브라질의 국기" width="300">
+                        <img src="brazil_location.png" alt="[이미지] 브라질의 위치" width="300">
+                    </fieldset>
+                </form>
+                <form style="display:inline-block">
+                    <fieldset>
+                        <legend>
+                            <h3><a href="#index" id="festival_media" style="color:hsl(233, 100%, 73%)">대중 매체</a></h3>
+                        </legend>
+                        <form>
+                            <fieldset>
+                                <legend>이미지</legend>
+                                <img src="overview.jpg" alt="[이미지] 리우 카니발에서 퍼레이드하는 삼바 학교 모시다데" width="400">
+                                <p>
+                                    리우 카니발에서 퍼레이드하는 삼바 학교 모시다데
+                                </p>
+                            </fieldset>
+                        </form>
+
+                        <form>
+                            <fieldset>
+                                <legend>동영상</legend>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/uS7dBB61jNU"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                                <p>
+                                    2020 리우 카니발
+                                </p>
+                            </fieldset>
+                        </form>
+                    </fieldset>
+                </form>
+                <hr>
+                <h2><a href="#index" id="brazil_carnival" style="color:hsl(233, 100%, 73%)">2. 브라질의 카니발</a></h2>
+                <p>
+                    카니발이라는 축제는 브라질 리우데자네이루, 상파울루, 사우바도르, 헤시피 중심으로 열리는데
+                    리우 카니발이 가장 성대하기 때문에 '리우 카니발'이 대표적인 카니발 축제라고 볼 수 있다.
+                </p>
+                <hr>
+                <h2><a href="#index" id="carnival_scale" style="color:hsl(233, 100%, 73%)">3. 축제의 규모</a></h2>
+                <p>
+                    매년 리우카니발 축제 기간에, 전 세계에서 6만여 명의 관광객이 찾아오고, 브라질의 국내 관광객도 약 25만 명에 이른다.
+                    6만여 명이라는 숫자는 브라질을 찾는 전체 관광객 중 1/3이며, 이렇게 리우 카니발 시기에 맞춰 관광객이 여행을 오는 것
+                    으로 보아 리우 카니발이 얼마나 큰 축제인 지 알 수 있다.
+                </p>
+                <form style="display:inline-block">
+                    <fieldset>
+                        <legend>
+                            <h3><a href="#index" id="carnival_scale_example" style="color:hsl(233, 100%, 73%)">사례</a>
+                            </h3>
+                        </legend>
+                        <img src="carnival_scale.jpg" alt="[이미지] 2013년 삼바드로메에서 퍼레이드하는 삼바 학교" width="300">
+                        <p>
+                            2013년 삼바드로메에서 퍼레이드하는 삼바 학교
+                        </p>
+                    </fieldset>
+                </form>
+                <hr>
+                <h2><a href="#index" id="carnival_origin" style="color:hsl(233, 100%, 73%)">4. 축제의 유래</a></h2>
+                <h3><a href="#index" id="carnival_origin_1" style="color:hsl(233, 100%, 73%)">카니발의 유래</a></h3>
+                <p>
+                    카니발은 유럽이나 남북아메리카, 가톨릭권의 도시에서 매년 경축되는 사순절 전의 마지막 요란스런 의식을 부리는
+                    것을 말한다. 카니발의 어원은 라틴어인 'Carnelevamen'(살코기를 끊는다)인데, 카니발은 곧 다가오는 사순절이라는
+                    금욕 기간에 앞서 영양을 보충하기 위해 마음껏 먹고 마시자는 취지에서 시작된 축제이다.
+                </p>
+                <h3><a href="#index" id="carnival_origin_2" style="color:hsl(233, 100%, 73%)">리우 카니발의 유래</a></h3>
+                <p>
+                    리우 카니발은 포르투갈에서 브라질로 건너온 사람들의 사순절 축제에 아프리카 노예들의 전통 타악기 연주와 춤이
+                    합쳐져서 생겨났다. 처음에는 사탕수수 경작을 위해 아프리카에서 끌려온 흑인 노예들이 힘든 노동을 끝내고, 고향에서
+                    즐겼던 노래와 춤을 추며 고통과 향수를 달랬던 것에서 시작했다. 이것이 점차 발전하여 20세기 초에 지금과 같은 형식의
+                    카니발이 완성되었다. 그러나 1930년대 초반까지는 일반적인 거리 축제에 지나지 않았다. 이후에 여러 삼바 학교가
+                    설립되고, 학교별 퍼레이드가 시작되며 지금과 같은 규모의 축제로 발전하였다.
+                </p>
+                <h3><a href="#index" id="carnival_origin_3" style="color:hsl(233, 100%, 73%)">삼바와 삼바 스쿨</a></h3>
+                <p>
+                    리우 카니발 축제는 삼바 축제라고도 사람들에게 많이 알려져 있다. 그만큼 카니발에서 삼바가 차지하는 비중은
+                    매우 크다. 삼바 스쿨은 카니발 축제를 준비하기 위해 설립된 학교다. 1928년 리우데자네이루의 흑인 빈민가
+                    에스타시오데사에 최초로 설립이 되었다. 그 이후로 많은 학교들이 생겨, 매년 리우 카니발 축제에서 퍼레이드를
+                    준비하여 서로 경쟁한다. 이렇게 리우 카니발의 핵심은 삼바 퍼레이드이기 때문에, 리우데자네이루 시청에서는
+                    주요 삼바학교에 보조금을 지급하기도 한다.
+                </p>
+                <hr>
+                <h2><a href="#index" id="carnival_parade" style="color:hsl(233, 100%, 73%)">5. 삼바 퍼레이드</a></h2>
+                <p>
+                    삼바 퍼레이드야말로 리우 카니발 축제의 진미다. 각 삼바 스쿨에서 주제를 정해 1년간 퍼레이드를 위한 삼바를
+                    연습한다. 삼바 퍼레이드는 삼바드로메(포르투갈어로는 삼보드로모)라는 거리에서 이루어지는데, 수용인원은
+                    약 6만명이다. 삼바 퍼레이드는 하루만 하는 것이 아닌 축제 기간 내내 일정 시간을 정해 여러 삼바스쿨이
+                    퍼레이드를 진행하게 된다. 그 중에서도 가장 뛰어난 삼바 단체들은 따로 모아서 공연을 하는데, 그 퍼레이드는
+                    다른 퍼레이드보다 훨씬 화려하다.
+                </p>
+                <hr>
+                <h2><a href="#index" id="outter_link" style="color:hsl(233, 100%, 73%)">6. 외부 링크</a></h2>
+                <p>
+                    리우 카니발 공식 홈페이지: <a href="http://www.rio-carnival.net"
+                        style="color:green">http://www.rio-carnival.net</a>
+                </p>
+            </section>
+        </article>
+    </main>
+    <footer id="bottom">
+    </footer>
+    <!-- 다크 모드/맨 위로/맨 밑으로 버튼 -->
+    <div id="navigator">
+        <!-- svg 이미지 파일 속성을 검색해서 가져옴 -->
+        <!-- 다크 모드 버튼 -->
+        <div id="darkmode">
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+                <path
+                    d="M481-29 346-160H160v-186L26-480l134-134v-186h186l135-134 133 134h186v186l134 134-134 134v186H614L481-29Zm0-191q108 0 183.5-76.125T740-481q0-107.917-75.542-183.458Q588.917-740 481-740v520Zm0 107 107.917-107H740v-151l109-109-109-109v-151H589L481-849 371-740H220v151L111-480l109 109v151h150l111 107Zm-1-368Z" />
+            </svg>
+        </div>
+        <!-- 맨 위로 버튼 -->
+        <a href="#top"><svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+                <path d="M450-160v-526L202-438l-42-42 320-320 320 320-42 42-248-248v526h-60Z" />
+            </svg></a>
+        <!-- 맨 밑으로 버튼 -->
+        <a href="#bottom"><svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+                <path d="M480-160 160-480l42-42 248 248v-526h60v526l248-248 42 42-320 320Z" />
+            </svg></a>
+    </div>
+    <!--javascript 파일 연결-->
+    <script src="brazil.js"></script>
 </body>
 
 </html>
